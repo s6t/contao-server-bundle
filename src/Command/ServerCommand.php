@@ -1,6 +1,6 @@
 <?php
 
-namespace Schroedt\ServerBundle\Command;
+namespace Schroedt\ContaoServerBundle\Command;
 
 use Symfony\Bundle\FrameworkBundle\Command\ContainerAwareCommand;
 use Symfony\Component\Console\Input\InputInterface;
