@@ -1,0 +1,27 @@
+{
+    "name": "schroedt/contao-server-bundle",
+    "description": "Development Server for Contao CMS",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Tobias",
+            "email": "schroedt@live.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "contao/core-bundle": "^4.4"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Schroedt\\ContaoServerBundle\\": "src/"
+        }
+    },
+    "extra":{
+        "contao-manager-plugin": "Schroedt\\ContaoServerBundle\\ContaoManager\\Plugin"
+    }
+}

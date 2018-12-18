@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autoconfigure: true
+
+    contao.command.server:
+        class: Schroedt\ContaoServerBundle\Command\ServerCommand
+        arguments:
+            - '%kernel.project_dir%'
+            - '%contao.web_dir%'
